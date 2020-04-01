@@ -1,0 +1,150 @@
+body{
+	background-color: white;
+}
+
+.App1{
+	margin-top: 5%;
+	background-color: blue;
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+	height: 200px;
+	text-align: center;
+	color: white;
+}
+
+.form{
+	margin-top: 5px;
+	width: 50%;
+	height: 40px;
+}
+.matrice{
+	width: 50%;
+	height: 40%;
+	margin-right: 25%;
+	margin-left: 25%;
+	background-color: silver;
+	align-items: center;
+	margin-top:10%;
+}
+
+.btn-dessiner{
+	margin-top: 5px;
+	background-color: yellow;
+	width: 25%;
+	height: 33px;
+}
+.btn-numero{
+	margin-top: 5px;
+	background-color: lime;
+	width: 25%;
+	color: #fff;
+	height: 33px;
+}
+
+.case{
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 1px;
+}
+.btn-annuler{
+	background-color: silver;
+	width: 21%;
+	height: 33px;
+	float: right;
+	margin-right: 25%;
+
+}
+
+.calendar{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: silver;
+}
+
+.TablePremier{
+	width: 60%;
+	border-collapse: collapse;
+	margin-left: 15%;
+}
+.TablePremier tr td{
+	padding: 3px;
+	border : 1px solid #fff;
+	text-align: center;
+}
+.TablePremier tr {
+	background-color: #8B0000;
+	color: white;
+	font-weight: bold;
+}
+p{
+	margin-left: 15%;
+}
+a{
+	text-decoration: none;
+}
+strong{
+	margin-top: 50px;
+	margin-left: 15%;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+}
+.inferieur{
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    text-align: center;
+}
+.superieur{
+	float: right;
+	margin-right: 8%;
+	margin-top: 10%;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	color: red;
+}
+.btn-generer{
+	margin-top: 5px;
+	background-color: blue;
+	width: 15%;
+	height: 33px;
+	color: white;
+}
+.btn-annuler{
+	margin-top: 5px;
+	background-color: red;
+	width: 15%;
+	height: 33px;
+	margin-left: 10%;
+}
+.btn-valider{
+	margin-top: 5px;
+	background-color: lime;
+	width: 25%;
+	height: 33px;
+}
+span{
+	text-align: center;
+	color: red;
+	font-family: 12px;
+	display: block;
+}
+.resultat{
+	background-color: lime;
+	text-align: center;
+	color: white;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 25px;
+	height: 50px;
+	t
+
+}

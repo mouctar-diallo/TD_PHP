@@ -1,0 +1,58 @@
+body{
+	background-color: white;
+}
+p{
+	font-family: 'Trade Winds', cursive;
+}
+img{
+	border-radius: 15px;
+	width: 35px;
+	height: 20px;
+	margin: 0 auto;
+}
+.App1{
+	background-color: #00BFFF;
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+	height: 650px;
+	text-align: center;
+}
+
+.form{
+	width: 50%;
+	height: 40px;
+	border-radius: 15px;
+}
+
+.matrice{
+	width: 50%;
+	height: 40%;
+	margin-right: 25%;
+	margin-left: 25%;
+	background-color: silver;
+	align-items: center;
+	margin-top:10%;
+}
+
+.btn-dessiner{
+	background-color: yellow;
+	width: 25%;
+	height: 33px;
+	float: left;
+	margin-left: 28%;
+	border-radius: 15px;
+
+}
+.case{
+	width: 50px;
+	height: 30px;
+}
+.btn-annuler{
+	background-color: silver;
+	width: 21%;
+	height: 33px;
+	float: right;
+	margin-right: 23%;
+	border-radius: 15px;
+}
