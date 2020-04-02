@@ -31,6 +31,9 @@
          <ul>
             <a href="index.php?pageCourant=exo3">Exo 3</a>
         </ul>
+        <ul>
+            <a href="index.php?pageCourant=exo4">Exo 4</a>
+        </ul>
          <ul>
             <a href="index.php?pageCourant=exo5">Exo 5</a>
         </ul>
@@ -57,12 +60,12 @@
                     case 'exo3':
                         include('serie/exo3.php');
                         break;
+                    case 'exo4':
+                        include('serie/exo4.php');
+                        break;
                     case 'exo5':
                         include('serie/exo5.php');
                         break;
-                    /*case 'qcm':
-                        include('qcm/admin.php');
-                        break;*/
                 }
            }
          ?>

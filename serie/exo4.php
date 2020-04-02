@@ -13,7 +13,7 @@ if (isset($_POST['valider'])) {
 <html>
 <head>
 	<title>EXERCICE 4</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="serie/style.css">
 </head>
 <body>
 	<center>
@@ -24,8 +24,8 @@ if (isset($_POST['valider'])) {
 	    	<input type="submit" value="tester les phrases" name="valider" class="btn-generer" /><br>
 	    	<?php
 	    		if (!empty($phrase)) {?>
-	    		<label>RESULTATS</label><br>
-	    		<textarea id="phrase"  cols="100" rows="6" readonly="false"><?php getPhrase($phrase);?></textarea>
+	    		<label><h2>RESULTATS</h2></label><br>
+	    		<textarea id="phrase"  cols="100" rows="6" readonly="false"><?=getPhrase($phrase);?></textarea>
 	    	<?php }
 	    	?>
 		</form>
