@@ -23,7 +23,7 @@ if (isset($_POST['valider'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>EXERCICE 3</title>
 	<link rel="stylesheet" type="text/css" href="serie/style.css">
 </head>
 <body>

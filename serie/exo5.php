@@ -64,7 +64,7 @@ var_dump($operateurs);
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>EXERCICE 5</title>
 	<link rel="stylesheet" type="text/css" href="serie/style.css">
 </head>
 <body>

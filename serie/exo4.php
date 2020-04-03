@@ -1,10 +1,11 @@
 <?php
 include('exo4_function.php');
-@$phrase = $_POST['phrase'];
 $error = ""; $resultat = "";
 if (isset($_POST['valider'])) {
 	if (empty($_POST['phrase'])) {
 		$error = "veuillez remplir le champ";
+	}else{
+		$phrase = $_POST['phrase'];
 	}
 }
 ?>

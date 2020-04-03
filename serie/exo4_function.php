@@ -8,17 +8,20 @@ function phrase_valide($phrase){
 }
 //fonction permettant de nettoyer les espaces en debut-milieu-et fin de chaine
 function delete_space($phrase){
-	$phrase = trim($phrase);
-	$clean = preg_replace('/\s\s+/', ' ', $phrase);
+	$clean = preg_replace('/\s\s+/', ' ', trim($phrase));
 	return $clean;
 }
-
-function getPhrase($phrase){
-	preg_match_all("#[^.|?|!]*[.|?|!]#", $phrase, $phrases);
-	for ($i=0; $i < count($phrases[0]); $i++) { 
-		$phrases[0][$i]=delete_space($phrases[0][$i]);
-		if (phrase_valide($phrases[0][$i])) {
-			echo  $phrases[0][$i] ." ";
+//decoupe les phrases
+function getPhrase($phrases){
+	$result = preg_split("#(?<=[.?!])\s*(?=[a-z])#i", $phrases);
+	//regex permettant de supprimer espaces apres virgule ou point ou point virgure. 
+	$result = preg_replace("#(?<=[',;])\s*#", '',$result);
+	foreach ($result as $phrase) {
+	 	$phrase = delete_space($phrase);
+	 	if (phrase_valide($phrase)) {
+			echo   $phrase ." ";
+		}else{
+			return  $phrase ." ";
 		}
 	}
 }
